@@ -1,0 +1,178 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/*Header*/
+header {
+    display: flex;
+    background-image: url(Images/candies.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 0, 170);
+    padding: 10px 95px 10px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+/*Body*/
+body {
+    background-color: rgb(255, 218, 223);
+}
+/*Navigations*/
+.navigation {
+    display: flex;
+    justify-content: right;
+    background-color: palevioletred;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    padding-right: 100px;
+    font-size: large;
+    color: pink;
+    font-size: large;
+}
+
+nav a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: navy;
+}
+/*Main*/
+main {
+    color: palevioletred;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+/*Welcome*/
+.welcome {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+    font-size: medium;
+}
+
+h2 {
+    padding-top: 50px;
+    text-align: center;
+}
+/*View*/
+.view {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.view a {
+    text-decoration: none;
+    color: royalblue;
+}
+
+.view a:hover {
+    color: navy;
+}
+/*About*/
+.about {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/*History*/
+.history {
+    text-align: center;
+    margin-bottom: 20px;
+}
+/*Product*/
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+    background-image: url(Images/Candyland.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: large;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.products p {
+    color: black;
+    background-color: palevioletred;
+}
+
+.products p:hover {
+    background-color: pink;
+}
+/*Coming Soon*/
+.soon {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+    background-image: url(Images/Candyland.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: large;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.soon p {
+    color: black;
+    background-color: palevioletred;
+}
+
+.soon p:hover {
+    background-color: pink;
+}
+/*Contact*/
+.contact {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/*Location*/
+.location {
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+    text-align: left;
+}
+.location a {
+    text-decoration: none;
+    color: darkred;
+}
+.location a:hover {
+    color: hotpink;
+}
+
+/*Footer*/
+footer {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    color: darkred;
+    background-image: url(Images/candies.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
