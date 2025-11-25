@@ -31,12 +31,12 @@ body {
 
 nav ul {
     display: flex;
-    gap: 10px;
+    gap: 5px;
     list-style-type: none;
     padding-right: 100px;
     font-size: large;
     color: pink;
-    font-size: medium;
+    font-size: small;
 }
 
 nav a {
